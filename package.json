@@ -1,0 +1,35 @@
+{
+  "name": "nest-typeorm-graphql-example",
+  "version": "1.0.0",
+  "description": "A Nestjs typeorm graphql implementation example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ts-node src/server.ts"
+  },
+  "author": "ThomRick",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^4.4.2",
+    "@nestjs/core": "^4.4.2",
+    "apollo-server-express": "^1.2.0",
+    "graphql": "^0.11.7",
+    "pg": "^7.4.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.5.5",
+    "typeorm": "^0.1.7"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^4.4.1",
+    "@types/chai": "^4.0.10",
+    "@types/graphql": "^0.11.7",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.57",
+    "@types/sinon": "^4.1.2",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.2"
+  }
+}
